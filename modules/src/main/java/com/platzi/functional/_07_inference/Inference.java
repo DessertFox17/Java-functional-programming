@@ -25,16 +25,6 @@ public class Inference {
                 .forEach(System.out::println);
 
 
-
-
-
-
-
-
-
-
-
-
         /*
         Sin la inferencia el codigo de arriba se veria muchisimo mas largo y menos declarativo
 
@@ -51,18 +41,6 @@ public class Inference {
                 .forEach((String str) -> System.out.println(str));
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     private static List<Integer> getNumbers(){
         List<Integer> numbers = new LinkedList<>();
         numbers.add(1);
@@ -76,24 +54,6 @@ public class Inference {
 
         return numbers;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     private static Stream<Integer> getOperable(List<Integer> list) {

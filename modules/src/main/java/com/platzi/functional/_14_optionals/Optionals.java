@@ -16,40 +16,17 @@ public class Optionals {
         //La clase optional nos ofrece diferentes maneras de crear un optional segun los datos que tengamos
 
 
-
-
         //La primera de ellas es crear un Optional de un dato que SI tenemos:
         Optional<String> optional = Optional.of("Java 8");
 
-
-
         //Si no estamos seguros del valor que pondremos en el Optional, podemos usar ofNullable:
         optional = Optional.ofNullable(uknownResult());
-
-
-
 
         //Y si lo que queremos es evitar devolver un null pero no tenemos un valor para regresar,
         //podemos usar simplemente:
         return Optional.empty();
     }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
     static void obtenerUnDato() {
         Optional<String> optional = Optional.ofNullable(uknownResult());

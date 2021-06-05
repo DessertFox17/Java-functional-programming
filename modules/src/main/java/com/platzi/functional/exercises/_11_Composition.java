@@ -11,9 +11,15 @@ public class _11_Composition {
         //Ejemplo:
         Function<Integer, Integer> toNegative = x -> -x;
 
+        Function<Integer, Integer> xSq = x -> x * x;
+        Function<Integer, Integer> ySq = y -> y * y;
+
+
         //Y aqui tienes un regalo para este ejercicio (tienes que usar esta funcion en el codigo final):
         Function<Integer, Integer> multiplyBy2 = x -> x * 2;
 
+
         return null;
     }
+
 }

@@ -14,6 +14,5 @@ public class TypeStream {
 
         Stream<String> letters = Stream.of("L","Z","Y");
 
-
     }
 }
